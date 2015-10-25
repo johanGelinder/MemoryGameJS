@@ -1,0 +1,11 @@
+CACHE MANIFEST
+# 2012-02-21 v1.0.0
+
+NETWORK:
+*
+
+FALLBACK:
+3x2.html
+
+
+<html manifest="manifest.appcache"

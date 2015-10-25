@@ -1,0 +1,123 @@
+.home {
+    width:70px;
+    height:70px;
+    background-position:center;
+    position:absolute;
+    z-index:0;
+    top:2;
+    left:2;
+}
+
+#pic {
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+.flip3Dclick {
+    width: 125px;
+    height: 125px;
+    margin: 40px;
+    margin-top: 1.5em;
+    float: left;
+    position: relative;
+    right: -9%;
+}
+
+.flip3Dclick > .front{
+    position: absolute;
+    transform:perspective(600px) rotateY(0deg);
+    -webkit-transform:perspective(600px) rotateY(0deg);
+    background: #FC0;
+    width: 125px;
+    height: 125px;
+    border-radius: 20px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transition: 0.5s linear 0s;
+    -webkit-transition: 0.5s linear 0s;
+}
+
+
+.backImage{
+    position: absolute;
+    transform:perspective(600px) rotateY(180deg);
+    -webkit-transform:perspective(600px) rotateY(180deg);
+    width: 125px;
+    height: 125px;
+    border-radius: 7px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transition: 0.5s linear 0s;
+    -webkit-transition: 0.5s linear 0s;
+}
+
+#back1 {
+    background: url(mediumimages/bear1.png);
+}
+#back2 {
+    background: url(mediumimages/beartext1.png);
+}
+#back3 {
+    background: url(mediumimages/cat1.png);
+}
+#back4 {
+    background: url(mediumimages/cattext1.png);
+}
+#back5 {
+    background: url(mediumimages/deer1.png);
+}
+#back6 {
+    background: url(mediumimages/deertext1.png);
+}
+#back7 {
+    background: url(mediumimages/dog1.png);
+}
+#back8 {
+    background: url(mediumimages/dogtext1.png);
+}
+#back9 {
+    background: url(mediumimages/duck1.png);
+}
+#back10 {
+    background: url(mediumimages/ducktext1.png);
+}
+#back11 {
+    background: url(mediumimages/elephant1.png);
+}
+#back12 {
+    background: url(mediumimages/elephanttext1.png);
+}
+#back13 {
+    background: url(mediumimages/fox1.png);
+}
+#back14 {
+    background: url(mediumimages/foxtext1.png);
+}
+#back15 {
+    background: url(mediumimages/lion1.png);
+}
+#back16 {
+    background: url(mediumimages/liontext1.png);
+}
+
+#winmenu2 {
+width: 200px;
+height: 200px;
+display: none;
+position:absolute;
+left:41.5%;
+margin-top:18em;
+}
+
+.nextLevel {
+   height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    z-index: 9999;
+    position: relative;
+    right: 58%;
+    margin-top: -7em;   
+}

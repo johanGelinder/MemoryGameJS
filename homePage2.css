@@ -1,0 +1,104 @@
+#background { 
+position: fixed; 
+top: 0; 
+left: 0; 
+width: 100%; 
+height: 100%; 
+background: url(background.png) no-repeat center center fixed; 
+}
+
+.home {
+    width:70px;
+    height:70px;
+    background-position:center;
+    position:absolute;
+    z-index:0;
+    top:2;
+    left:2;
+}
+
+.ParentText {
+    border-radius:7px;
+    position:absolute;
+    width:400px;
+	height:515px;
+	background-size:100%;
+	border:none;
+	right:30%;
+	margin-top:6em;
+}
+
+.HelpText {
+	border-radius:7px;
+    position:absolute;
+    width:600px;
+    background-size:100%;
+	border:none;
+	right:20%;
+	margin-top:9em;
+	background-image:url(buttons/HelpText.png);
+}
+    
+.Easy {
+	width:250px;
+    height:100px;
+    background-position:center;
+  	position:absolute;
+  	right:40%;
+  	margin-top:13em;
+    
+}
+
+.Medium {
+	width:250px;
+    height:100px;
+    background-position:center;
+    position:absolute;
+    margin-top:21em;
+    right:40%;
+}
+
+.Hard {
+	width:250px;
+    height:100px;
+    background-position:center;
+    position:absolute;
+    margin-top:29em;  
+    right:40%; 
+   }
+
+.Logo {
+	width:450px;
+    height:362px;
+    position:absolute;
+    border:none;
+    right:29%;
+    margin-top:2em;
+    
+}
+.Play {
+	width:300px;
+    height:130px;
+    position:absolute;
+    border:none;
+    right:36.5%;
+    margin-top:27em;   
+}
+
+.Parents {	
+	width:100px;
+    height:100px;
+    background-position:center;
+    position:absolute;
+    margin-top:37em;
+    left:37%;
+}
+
+.Help {
+	width:100px;
+    height:100px;
+    background-position:center;
+    position:absolute;
+    margin-top:37em;
+    left:50%;
+}

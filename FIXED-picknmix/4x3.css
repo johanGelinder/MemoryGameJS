@@ -1,0 +1,100 @@
+#pic {
+    width: 1010px;
+    height: 735px;
+    position:fixed;
+}
+
+@font-face {
+    font-family: "rumpel";
+    src: url("font/Rumpelstiltskin.ttf"); 
+}
+
+.flip3Dclick {
+    width: 125px;
+    height: 125px;
+    margin: 50px;
+    margin-top: 3em;
+    float: left;
+    position: relative;
+    right: -5%;
+}
+
+.flip3Dclick > .front{
+    position: absolute;
+    transform:perspective(600px) rotateY(0deg);
+    -webkit-transform:perspective(600px) rotateY(0deg);
+    background: #FC0;
+    width: 125px;
+    height: 125px;
+    border-radius: 20px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transition: 0.5s linear 0s;
+    -webkit-transition: 0.5s linear 0s;
+}
+
+
+.backImage{
+    position: absolute;
+    transform:perspective(600px) rotateY(180deg);
+    -webkit-transform:perspective(600px) rotateY(180deg);
+    width: 125px;
+    height: 125px;
+    border-radius: 7px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transition: 0.5s linear 0s;
+    -webkit-transition: 0.5s linear 0s;
+}
+
+#back1 {
+    background: url(images/dog1.png);   
+}
+
+#back2 {
+    background: url(images/walrus1.png);   
+}
+
+#back3 {
+    background: url(images/skunk1.png);
+}
+
+#back4 {
+    background: url(images/elephant1.png);   
+}
+
+#back5 {
+    background: url(images/racoon1.png);   
+}
+
+#back6 {
+    background: url(images/monkey1.png);
+}
+
+#winmenu3 {
+width: 500px;
+height: 420px;
+margin-top: 8em;
+background: #FC0;
+position: absolute; 
+z-index: 9999;
+display: none;
+right: 26.5%;
+border-radius: 20px;
+}
+
+#winText {
+    font-size: 100px;
+    color: green;
+    text-align: center;
+    margin-top: 70px;
+    font-family: "rumpel";
+    }
+
+#button3 {
+    width: 200px;  
+    height: 100px;
+    position: relative;
+    right: -29%;
+    margin-top: -4em;
+}    

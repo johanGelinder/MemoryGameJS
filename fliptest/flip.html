@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>PICK 'N MIX</title>
+    <meta name="description" content="">
+   <!--<script src="main.js"></script>-->
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="flip.css" />
+</head>
+
+<script>
+    
+    function flipit(el, boo) {
+        
+        if(boo == true){
+        el.children[1].style.webkitTransform = "perspective(600px) rotateY(-180deg)";
+        el.children[0].style.webkitTransform = "perspective(600px) rotateY(0deg)";
+        el.children[1].style.transition = "all .5s linear 0s";
+        el.children[0].style.transition = "all .5s linear 0s";
+        el.children[1].style.transform = "perspective(600px) rotateY(-180deg)";
+        el.children[0].style.transform = "perspective(600px) rotateY(0deg)";
+        el.children[1].style.webkitTransition = "all .5s linear 0s";
+        el.children[0].style.webkitTransition = "all .5s linear 0s";
+        }
+        if(boo == false){
+        el.children[1].style.webkitTransform = "perspective(600px) rotateY(0deg)";
+        el.children[0].style.webkitTransform = "perspective(600px) rotateY(180deg)";
+        el.children[1].style.transition = "all .5s linear 0s";
+        el.children[0].style.transition = "all .5s linear 0s";
+        el.children[1].style.transform = "perspective(600px) rotateY(0deg)";
+        el.children[0].style.transform = "perspective(600px) rotateY(180deg)";
+        el.children[1].style.webkitTransition = "all .5s linear 0s";
+        el.children[0].style.webkitTransition = "all .5s linear 0s";
+        }
+    }
+</script>
+
+<body>
+    
+
+        <div class="flip3Dclick">
+        <div class="backImage" id="back1" onclick="flipit(this.parentNode, false);">
+        </div>
+        <div class="front" onclick="flipit(this.parentNode, true);">
+        </div>
+    </div>
+        <div class="flip3Dclick">
+        <div class="backImage" id="back2" onclick="flipit(this.parentNode, false);">
+    </div>
+    <div class="front" onclick="flipit(this.parentNode, true);">
+</div>
+</div>
+    
+    <div class="flip3Dclick">
+    <div class="backImage" id="back3" onclick="flipit(this.parentNode, false);">
+
+</div>
+    <div class="front" onclick="flipit(this.parentNode, true);">
+</div>
+</div>
+    <div class="flip3Dclick">
+    <div class="backImage" id="back4" onclick="flipit(this.parentNode, false);">
+</div>
+    <div class="front" onclick="flipit(this.parentNode, true);">
+</div>
+</div>
+
+    <div class="flip3Dclick">
+    <div class="backImage" id="back5" onclick="flipit(this.parentNode, false);">
+</div>
+    <div class="front" onclick="flipit(this.parentNode, true);">
+</div>
+
+           
+</body>
+
+</html>

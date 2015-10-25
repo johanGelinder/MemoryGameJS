@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>3x2 FIX</title>
+        <meta name="description" content="">
+        <script src="libs/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <meta name="viewport" content="width=device-width">
+        <link href="3x2.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+                <script src="mainfix.js"></script>
+    </head>
+    <body>
+         <div id="background">
+            <img id="pic" src="images/bg.png">
+        </div>
+        <div id="winmenu">
+            <p id="winText">YOU WIN!!</p>
+            <a href="4x2.html">
+            <img id="button" src="images/botton2.png"/>
+            </a>
+        </div>
+        <div id="shuffle">
+            <div class="flip3Dclick" id="owl">
+                <div class="backImage" id="back1"></div>
+                <div class="front" onclick="flipit(this.parentNode);"></div>
+            </div>
+            <div class="flip3Dclick" id="owl1">
+                <div class="backImage" id="back1"></div>
+                <div class="front" onclick="flipit(this.parentNode);"></div>
+            </div>
+            <div class="flip3Dclick" id="duck">
+                <div class="backImage" id="back2"></div>
+                <div class="front" onclick="flipit(this.parentNode);"></div>
+            </div>
+            <div class="flip3Dclick" id="duck1">
+                <div class="backImage" id="back2"></div>
+                <div class="front" onclick="flipit(this.parentNode);"></div>
+            </div>
+            <div class="flip3Dclick" id="deer">
+                <div class="backImage" id="back3"></div>
+                <div class="front" onclick="flipit(this.parentNode);"></div>
+            </div>
+            <div class="flip3Dclick" id="deer1">
+                <div class="backImage" id="back3"></div>
+                <div class="front" onclick="flipit(this.parentNode);"></div>
+            </div>
+            <!--onclick="flipit(this.parentNode);" -->
+            
+        </div>
+
+
+    </body>
+
+</html>

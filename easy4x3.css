@@ -1,0 +1,98 @@
+.home {
+    width:70px;
+    height:70px;
+    background-position:center;
+    position:absolute;
+    z-index:0;
+    top:2;
+    left:2;
+}
+
+#pic {
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+.flip3Dclick {
+    width: 125px;
+    height: 125px;
+    margin: 50px;
+    margin-top: 4em;
+    float: left;
+    position: relative;
+    right: -5%;
+}
+
+.flip3Dclick > .front{
+    position: absolute;
+    transform:perspective(600px) rotateY(0deg);
+    -webkit-transform:perspective(600px) rotateY(0deg);
+    background: #FC0;
+    width: 125px;
+    height: 125px;
+    border-radius: 20px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transition: 0.5s linear 0s;
+    -webkit-transition: 0.5s linear 0s;
+}
+
+
+.backImage{
+    position: absolute;
+    transform:perspective(600px) rotateY(180deg);
+    -webkit-transform:perspective(600px) rotateY(180deg);
+    width: 125px;
+    height: 125px;
+    border-radius: 7px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transition: 0.5s linear 0s;
+    -webkit-transition: 0.5s linear 0s;
+}
+
+#back1 {
+    background: url(images/dog1.png);   
+}
+
+#back2 {
+    background: url(images/walrus1.png);   
+}
+
+#back3 {
+    background: url(images/skunk1.png);
+}
+
+#back4 {
+    background: url(images/elephant1.png);   
+}
+
+#back5 {
+    background: url(images/racoon1.png);   
+}
+
+#back6 {
+    background: url(images/monkey1.png);
+}
+
+#winmenu {
+width: 200px;
+height: 200px;
+display: none;
+position:absolute;
+left:41.5%;
+margin-top:18em;
+}
+
+.nextLevel {
+   height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    z-index: 9999;
+    position: relative;
+    right: 60%;
+    margin-top: -7em; 
+}  

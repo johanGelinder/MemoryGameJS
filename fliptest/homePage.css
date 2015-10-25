@@ -1,0 +1,42 @@
+body {
+	background-image: url(images/back.jpg);
+}
+h1 {
+	font-family:"Helvetica";
+	text-align:center;
+	color:black;
+}
+
+.textContainer {
+	color:black;
+	text-align:center;
+	min-height:30px;
+	margin:auto;
+	border-radius:10px;
+}
+
+
+.ui-button .button .grid-select-1 {
+	color:black;
+	font-size:40px;
+	text-align:center;
+	padding:10px 30px;
+	border-radius:10px;
+	text-decoration:none;
+	min-width:100px;
+	margin-left: 100px;
+	background:orange;
+ }
+
+.grid-select-1 {
+
+}
+
+@media all and (max-width: 50em) {
+	.my-breakpoint > div{
+		width: 100%;
+    	float:none;
+	}
+}
+
+

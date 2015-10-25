@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>homePage</title>
+
+		<!-- import the various JQuery libraries from the local server -->
+		<link rel="stylesheet" href="libs/jquery.mobile-1.4.4/jquery.mobile-1.4.4.min.css" />
+		<script src="libs/jquery-1.11.1.min.js"></script>
+		<script src="libs/jquery.mobile-1.4.4/jquery.mobile-1.4.4.min.js"></script>
+
+		<!-- link your own style sheet too -->
+		<link rel="stylesheet" href="homePage.css" />
+
+		<!-- your script for interactivity-->
+		<!-- depending on what you do you might want this at the bottom of the body -->
+		<script lanuage="javascript" src="libs/main.js"></script>  
+
+		<!-- this tag resizes the viewport for mobile ... 
+		try commenting it out and see what happens on your device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+	</head>
+</head>
+
+<div data-role="page" id="pageone">
+		<div data-role="header">
+	<h1>Pick 'n' Match</h1>
+	</div>
+
+
+	<div data-role="main" class="ui-content">
+
+		<class="ui-grid-b my-breakpoint textContainer">
+
+				 <div data-role="control group">
+					<button class="ui-button ui-btn-inline ui-corner-all data "><a href="flip.html"</a><strong>Play!</strong></button></a>
+				</div>
+			
+				<div data-role="page" id="pagetwo">
+  					<div data-role="main" class="ui-content">
+    				<a href="#pageone">Return Menu</a>
+  					</div>
+  				</div>
+			
+				<div>
+        			<label for="grid-select-1" class="ui-hidden-accessible">Level</label>
+        		<select id="grid-select-1" name="grid-select-1" data-shadow="false">
+            	<option>Select</option>
+            		<option value="1">Level 1</option>
+            		<option value="2">Level 2</option>
+            		<option value="3">Level 3</option>
+          
+       	 		</select>
+    			</div>
+
+				<div>
+				<a href=""</a> <button class="ui-button ui-btn-inline ui-corner-all data"><strong>About Us</strong></button></a>
+				</div>
+			
+		</div>
+	</div>
+		
+</div>
+	 
+
+
+</body>
+</html>
+
+
+

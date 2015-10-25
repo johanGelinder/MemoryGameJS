@@ -1,0 +1,123 @@
+.home {
+    width:70px;
+    height:70px;
+    background-position:center;
+    position:absolute;
+    z-index:0;
+    top:2;
+    left:2;
+}
+
+#pic {
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+.flip3Dclick {
+    width: 125px;
+    height: 125px;
+    margin: 40px;
+    margin-top: 1.5em;
+    float: left;
+    position: relative;
+    right: -9%;
+}
+
+.flip3Dclick > .front{
+    position: absolute;
+    transform:perspective(600px) rotateY(0deg);
+    -webkit-transform:perspective(600px) rotateY(0deg);
+    background: #FC0;
+    width: 125px;
+    height: 125px;
+    border-radius: 20px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transition: 0.5s linear 0s;
+    -webkit-transition: 0.5s linear 0s;
+}
+
+
+.backImage{
+    position: absolute;
+    transform:perspective(600px) rotateY(180deg);
+    -webkit-transform:perspective(600px) rotateY(180deg);
+    width: 125px;
+    height: 125px;
+    border-radius: 7px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transition: 0.5s linear 0s;
+    -webkit-transition: 0.5s linear 0s;
+}
+
+#back1 {
+    background: url(hardimages/salt.png);
+}
+#back2 {
+    background: url(hardimages/pepper.png);
+}
+#back3 {
+    background: url(hardimages/purse.png);
+}
+#back4 {
+    background: url(hardimages/money.png);
+}
+#back5 {
+    background: url(hardimages/hammer.png);
+}
+#back6 {
+    background: url(hardimages/nails.png);
+}
+#back7 {
+    background: url(hardimages/dog1.png);
+}
+#back8 {
+    background: url(hardimages/bone.png);
+}
+#back9 {
+    background: url(hardimages/bee.png);
+}
+#back10 {
+    background: url(hardimages/honey.png);
+}
+#back11 {
+    background: url(hardimages/cow.png);
+}
+#back12 {
+    background: url(hardimages/milk.png);
+}
+#back13 {
+    background: url(hardimages/chicken.png);
+}
+#back14 {
+    background: url(hardimages/egg.png);
+}
+#back15 {
+    background: url(hardimages/sun.png);
+}
+#back16 {
+    background: url(hardimages/moon.png);
+}
+
+#winmenu {
+width: 200px;
+height: 200px;
+display: none;
+position:absolute;
+left:41.5%;
+margin-top:18em;
+}
+
+.nextLevel {
+   height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    z-index: 9999;
+    position: relative;
+    right: 58%;
+    margin-top: -7em;   
+}

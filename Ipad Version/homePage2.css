@@ -1,0 +1,104 @@
+#pic { 
+position: fixed; 
+top: 0; 
+left: 0; 
+width: 1025px;
+height: 750px;
+}
+
+#page{
+    padding-top: 3%;
+    position:fixed;
+
+}
+
+.home {
+    width:70px;
+    height:70px;
+    position:absolute;
+    z-index:0;
+    top: -0.25em;
+}
+
+.ParentText {
+    border-radius:7px;
+    position:absolute;
+	height:640px;
+	background-size:100%;
+	border:none;
+	left: 15em;
+	margin-top:1em;
+}
+
+.HelpText {
+	border-radius:7px;
+    position:absolute;
+    width:680px;
+    background-size:100%;
+	border:none;
+    left:10em;
+	margin-top:5.25em;
+	background-image:url(buttons/HelpText.png);
+}
+    
+.Easy {
+	width:250px;
+    height:100px;
+    background-position:center;
+  	position:absolute;
+  	left:23em;
+  	margin-top:10em;
+    
+}
+
+.Medium {
+	width:250px;
+    height:100px;
+    background-position:center;
+    position:absolute;
+    margin-top:18em;
+    left: 23em;
+}
+
+.Hard {
+	width:250px;
+    height:100px;
+    background-position:center;
+    position:absolute;
+    margin-top:26em;  
+    left: 23em; 
+   }
+
+.Logo {
+	width:450px;
+    height:362px;
+    position:absolute;
+    left: 17.5em;
+
+    
+}
+.Play {
+	width:300px;
+    height:130px;
+    position:absolute;
+    left: 22em;
+    margin-top:27em;   
+}
+
+.Parents {	
+	width:100px;
+    height:100px;
+    background-position:center;
+    position:absolute;
+    margin-top:37em;
+    left:22em;
+}
+
+.Help {
+	width:100px;
+    height:100px;
+    background-position:center;
+    position:absolute;
+    margin-top:37em;
+    left:34.5em;
+}
